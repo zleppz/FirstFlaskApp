@@ -19,9 +19,9 @@ def predict():
     return jsonify(result)
 
 
-@app.route('/', methods=['GET'])
-def ping():
-    return "Pinging Model"
+# @app.route('/', methods=['GET'])
+# def ping():
+#     return "Pinging Model"
 
 
 if __name__ == '__main__':
